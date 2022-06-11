@@ -1,13 +1,13 @@
 # crossComponentCommunicationAngular
 use of @input( ) and @output( ) decorator for cross commumication between parent and child component,
 
-==========================================================================================================
+====================================================================================================
 app.component.html
 
-<p>root works</p>
-<app-parent></app-parent>
+'''<p>root works</p>'''
+'''<app-parent></app-parent>'''
 
-===========================================================================================================
+=====================================================================================================
 parent.component.html
 
 <h4>parent component</h4>
