@@ -1,0 +1,6 @@
+<h4>parent component</h4>
+<label> enter the input for child component:</label>
+<input type="text" class="form-control" [(ngModel)]="parent2child">
+<h5>output from child: {{dataFromChild}}</h5>
+<hr>
+<app-child [dataFromParent]="parent2child" (eventFromChild)="eventReceivedFromChild($event)"></app-child>
